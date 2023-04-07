@@ -16,7 +16,7 @@
     "nodemon": "^2.0.22"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "env-cmd -f ./config/dev.env nodemon index.js",
     "migrate": "sequelize db:migrate --env production"
