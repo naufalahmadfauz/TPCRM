@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "pg": "^8.10.0",
+    "pg-hstore": "^2.3.4",
+    "process": "^0.11.10",
+    "sequelize": "^6.30.0"
+  },
+  "name": "tpcrm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "env-cmd -f ./config/dev.env nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
